@@ -59,7 +59,32 @@
                 </div>
             </div>
         </header>
+        <style>
+            #VideoBG {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                border-bottom: 2px solid #548280 !important;
+                opacity: 0.05
+            }
+            .ContentVid {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                background: linear-gradient(to bottom, rgba(130, 178, 175, 0.97) 0%, rgba(130, 178, 175, 0.97) 85%, rgba(130, 178, 175, 1.0) 100%);
+                color: #f1f1f1;
+            }
+        </style>
+        <video autoplay="" muted="" loop="" id="VideoBG">
+            <source src="./public/circuits.mp4" type="video/mp4">
+        </video>
         <section id="hero" class="container section full-height">
+            
+            
             <h1 data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate"><span>Emblem Vault</span> - an entire wallet inside a Token</h1>
             </h1>
             <h2 data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">Combine different blockchain tokens into a single token. Tradable DeFi Pools. Make any token a privacy token. Make Tradable Portfolios.
