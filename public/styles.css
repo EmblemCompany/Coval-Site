@@ -7758,7 +7758,7 @@ token info
   width: 100%;
   height: auto; }
 
-#coval-token-information .total-supply, #coval-token-information .coval-contract-link, #coval-token-information .coval-token-breakdown {
+#coval-token-information .total-supply, #coval-token-information .coval-contract-link, #coval-token-information .coval-token-breakdown, #coval-token-information .coval-tokenomics {
   background-color: #FFFFFF;
   border-radius: 20px; }
 
@@ -7774,6 +7774,12 @@ token info
   -webkit-box-shadow: 4px 10px 12px 0px #eaebf1;
   -moz-box-shadow: 4px 10px 12px 0px #eaebf1;
   box-shadow: 4px 10px 12px 0px #eaebf1; }
+
+ 
+#coval-token-information .coval-tokenomics {
+  -webkit-box-shadow: 4px 10px 12px 0px #eaebf1;
+  -moz-box-shadow: 4px 10px 12px 0px #eaebf1;
+  box-shadow: 4px 10px 12px 0px #eaebf1; } 
 
 #coval-token-information .coval-contract-link {
   padding: 2em 1.25em;
@@ -7795,7 +7801,8 @@ token info
     display: block; }
 
 #coval-token-information .coval-token-header {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+text-align:right; }
   #coval-token-information .coval-token-header img {
     border-radius: 20px;
     width: 100px;
@@ -7850,6 +7857,11 @@ token info
     color: #888888;
     font-weight: 400;
     font-size: 12px; }
+
+    #coval-token-information .coval-tokenomics {
+      padding: 2em 1.25em;
+      margin-bottom: 35px;
+      margin-top: 25px; }
 
 #coval-token-information .coval-token-info {
   margin-bottom: 50px; }
@@ -8188,7 +8200,8 @@ footer {
     max-width: 500px; }
   #coval-token-information .coval-token-header img {
     width: 70px;
-    height: 70px; }
+    height: 70px; 
+  }
   #coval-token-information .coval-token-breakdown {
     margin-top: 25px; }
   #coval-community p {
